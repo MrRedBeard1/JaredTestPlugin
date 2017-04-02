@@ -1,0 +1,135 @@
+# main configuration file for JaredTestPlugin
+
+buffs:
+  3:
+      type: jump
+      duration: 30000
+      amp: 2
+  8:
+      type: jump
+      duration: 30000
+      amp: 2
+  13:
+      type: jump
+      duration: 30000
+      amp: 2
+  18:
+      type: jump
+      duration: 30000
+      amp: 2
+  23:
+      type: jump
+      duration: 30000
+      amp: 2
+  28:
+      type: jump
+      duration: 30000
+      amp: 2
+  33:
+      type: jump
+      duration: 30000
+      amp: 2
+  38:
+      type: jump
+      duration: 30000
+      amp: 2
+  43:
+      type: jump
+      duration: 30000
+      amp: 2
+  48:
+      type: jump
+      duration: 30000
+      amp: 2
+  53:
+      type: jump
+      duration: 30000
+      amp: 2
+  58:
+      type: jump
+      duration: 30000
+      amp: 2
+  63:
+      type: jump
+      duration: 30000
+      amp: 2
+  5:
+      type: power
+      duration: 30000
+      amp: 2
+  15:
+      type: power
+      duration: 30000
+      amp: 2
+  25:
+      type: power
+      duration: 30000
+      amp: 2
+  35:
+      type: power
+      duration: 30000
+      amp: 2
+  45:
+      type: power
+      duration: 30000
+      amp: 2
+  55:
+      type: power
+      duration: 30000
+      amp: 2
+  65:
+      type: power
+      duration: 30000
+      amp: 2
+  75:
+      type: power
+      duration: 30000
+      amp: 2
+  85:
+      type: power
+      duration: 30000
+      amp: 2
+  10:
+      type: mining
+      duration: 30000
+      amp: 2
+  20:
+      type: mining
+      duration: 30000
+      amp: 2
+  30:
+      type: mining
+      duration: 30000
+      amp: 2
+  40:
+      type: mining
+      duration: 30000
+      amp: 2
+  50:
+      type: mining
+      duration: 30000
+      amp: 2
+  60:
+      type: mining
+      duration: 30000
+      amp: 2
+  70:
+      type: mining
+      duration: 30000
+      amp: 2
+  80:
+      type: mining
+      duration: 30000
+      amp: 2
+  90:
+      type: mining
+      duration: 30000
+      amp: 2
+  110:
+      type: mining
+      duration: 30000
+      amp: 2
+  100:
+      type: war
+      duration: 10000
+      amp: 10000

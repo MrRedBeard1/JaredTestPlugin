@@ -1,0 +1,8 @@
+name: JaredTestPlugin
+version: 1.0
+author: Jared
+main: com.jared.jaredtestplugin.SpigotPlugin
+commands:
+  test:
+    description: Does whatever.
+    usage: /test
