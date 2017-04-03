@@ -3,33 +3,17 @@ package com.jared.jaredtestplugin;
 import org.bukkit.ChatColor;
 import org.bukkit.Color;
 import org.bukkit.Location;
-import org.bukkit.Material;
 import org.bukkit.configuration.Configuration;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
-import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerLevelChangeEvent;
-import org.bukkit.inventory.ItemStack;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 
 @SuppressWarnings("unused")
 public class EventListener implements Listener {
-    @EventHandler
-    public void onPlayerJoinEvent(PlayerJoinEvent event){
-        Player player = event.getPlayer();
-
-
-        ItemStack item = new ItemStack(Material.SHIELD);
-        ItemStack item2 = new ItemStack(Material.DIAMOND_SWORD, 1);
-
-        player.getInventory().addItem(item);
-        player.getInventory().addItem(item2);
-
-
-    }
 
     @EventHandler
     public void onPlayerLevelChangeEvent(PlayerLevelChangeEvent event) {
@@ -64,10 +48,12 @@ public class EventListener implements Listener {
             case "mining":
                 givePlayerMining(player,duration, amp);
                 player.sendMessage("Fast Mining");
+                break;
 
             case "war":
                 startAWar(player, duration, amp);
                 player.sendMessage("WAAAR!");
+                break;
 
         }
     }
