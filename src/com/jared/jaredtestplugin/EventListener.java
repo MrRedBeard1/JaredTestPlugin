@@ -62,8 +62,6 @@ public class EventListener implements Listener {
     private void levelUpBonus(Player player) {
         player.setFoodLevel(20);
         player.setHealth(20);
-        player.setSaturation(20);
-
     }
 
     private void givePlayerJump(Player player, int duration, int amp) {
