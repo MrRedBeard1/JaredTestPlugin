@@ -17,6 +17,10 @@ public class EventListener implements Listener {
 
     @EventHandler
     public void onPlayerLevelChangeEvent(PlayerLevelChangeEvent event) {
+        if (event.getNewLevel() < event.getOldLevel()) {
+            return;
+        }
+
         Player player = event.getPlayer();
         levelUpBonus(player);
 
